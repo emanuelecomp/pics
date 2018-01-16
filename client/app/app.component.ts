@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Http } from '@angular/http';
 
 @Component({
     moduleId: module.id,
@@ -8,4 +9,5 @@ import { Component } from '@angular/core';
 
 export class AppComponent{
 
+   
 }
