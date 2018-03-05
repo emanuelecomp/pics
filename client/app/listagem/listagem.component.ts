@@ -25,7 +25,8 @@ export class ListagemComponent {
     }
 
     remove(foto){
-        this.service.remove(foto)
+
+            this.service.remove(foto)
             .subscribe(
                 () => {
                     console.log('Foto removida');
@@ -37,5 +38,7 @@ export class ListagemComponent {
                 },
                 erro => console.log(erro)
             );
+        
+        
     }
 }
